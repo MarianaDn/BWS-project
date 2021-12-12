@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" type="imge/png" href="./images/favicon.png">
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Trends</title>
+</head>
+<body id="home">
+  <header class="header__trends">
+    <div class="container">
+      <nav class="header__nav header__nav--trends nav">
+        <div class="nav__hamburger nav__hamburger--trends">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <div class="nav__logo nav__logo--trends logo">BWS</div>
+        <div class="nav__cart nav__cart--trends"></div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="shop">
+    <div class="container">
+      <div class="shop__wrapper">
+        <div class="shop__filters filters">
+          <div class="filters__block">
+            <h3 class="filters__title">Category</h3>
+            <ul class="filters__list">
+              <li class="filters__list-item">
+                <label for="checkbox-all1">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-all1">
+                  <span>All</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-walls">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-walls">
+                  <span>Walls</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-slabs">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-slabs">
+                  <span>Slabs</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-pavers">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-pavers">
+                  <span>Pavers</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-caps-curbs">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-caps-curbs">
+                  <span>Steps, Caps & Curbs</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-enviro">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-enviro">
+                  <span>Enviro Products</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-features">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-features">
+                  <span>Features</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="filters__block">
+            <h3 class="filters__title">Products</h3>
+            <ul class="filters__list">
+              <li class="filters__list-item">
+                <label for="checkbox-all2">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-all2">
+                  <span>All</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-ashford">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-ashford">
+                  <span>Ashford</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-belgium">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-belgium">
+                  <span>Belgium</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-manhattan">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-manhattan">
+                  <span>Manhattan Plank</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-trevista">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-trevista">
+                  <span>Trevista 80 Smooth</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-trevista-textures">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-trevista-textures">
+                  <span>Trevista 80 Textures</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-richmond80">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-richmond80">
+                  <span>Richmond 80</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-adelaide80">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-adelaide80">
+                  <span>Adelaide 80</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-strada-nova">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-strada-nova">
+                  <span>Strada Nova</span>
+                </label>
+              </li>
+  
+              <li class="filters__list-item">
+                <label for="checkbox-doubleSt">
+                  <input type="checkbox" class="filters__checkbox" id="checkbox-doubleSt">
+                  <span>Double Standart</span>
+                </label>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="filters__block">
+            <h3 class="filters__title">Colors</h3>
+            <span class="filters__block-colors filters__block-colors-1"></span>
+            <span class="filters__block-colors filters__block-colors-2"></span>
+            <span class="filters__block-colors filters__block-colors-3"></span>
+            <span class="filters__block-colors filters__block-colors-4"></span>
+            <span class="filters__block-colors filters__block-colors-5"></span>
+          </div>
+  
+          <div class="filters__block">
+            <h3 class="filters__title">Price Range</h3>
+            <div class="filters__range-wrapper">
+                <input type="range" min="0" max="3000" value="750" id="slider-left">
+                <input type="range" min="0" max="3000" value="2250" id="slider-right">
+
+                <div class="filters__dual-range">
+                  <div class="filters__track"></div>
+                  <div class="filters__range"></div>
+                  <div class="filters__trumb filters__trumb--left"></div>
+                  <div class="filters__trumb filters__trumb--right"></div>
+                </div>
+            </div>
+
+            <div class="filters__range-text">
+              <span class="filters__min-range">$0</span>
+              <span class="filters__max-range">$2948</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="shop__cards-wrapper">
+          <div class="shop__cards-wrapper-top">
+            <div>
+              <span>Sort by</span>
+            <select name="Price Hight_Low" class="shop__select">
+              <option value="low-hight">Price Hight_Low</option>
+              <option value="low-hight">Price Low-Hight</option>
+              <option value="low-hight">All</option>
+            </select>
+            </div>
+            <div class="shop__cards-view">
+              <div class="shop__square"></div>
+              <div class="shop__square"></div>
+              <div class="shop__square"></div>
+              <div class="shop__square"></div>
+            </div>
+          </div>
+          <div class="shop__cards">
+            <div class="trends__card card">
+              <img
+                src="./images/trends1.jpeg"
+                alt="trends1"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <div class="card__sale card__sale-shop">Sale</div>
+              <h3 class="card__title">Balsam</h3>
+              <div class="card__buttom">
+                <div class="card__price">$299</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="trends__card card">
+              <img
+                src="./images/trends2.jpeg"
+                alt="trends2"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <div class="card__sale card__sale-shop">Sale</div>
+              <h3 class="card__title">Trevista 80 Smooth</h3>
+              <div class="card__buttom">
+                <div class="card__price">$165</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="trends__card card">
+              <img
+                src="./images/trends4.jpeg"
+                alt="trends3"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <h3 class="card__title">Garden Lock Fire Pit</h3>
+              <div class="card__buttom">
+                <div class="card__price">$234</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="trends__card card">
+              <img
+                src="./images/trends5.jpeg"
+                alt="trends3"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <h3 class="card__title">Adelaide 80</h3>
+              <div class="card__buttom">
+                <div class="card__price">$185</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="trends__card card">
+              <img
+                src="./images/trends9.jpeg"
+                alt="trends3"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <h3 class="card__title">Garden Lock Fire Pit</h3>
+              <div class="card__buttom">
+                <div class="card__price">$185</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="trends__card card">
+              <img
+                src="./images/trends7.jpeg"
+                alt="trends3"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <div class="card__sale card__sale-shop">Sale</div>
+              <h3 class="card__title">KU Leuven, BG</h3>
+              <div class="card__buttom">
+                <div class="card__price">$650</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="trends__card card">
+              <img
+                src="./images/trends8.jpeg"
+                alt="trends3"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <div class="card__sale card__sale-shop">Sale</div>
+              <h3 class="card__title">Garden Lock Fire Pit</h3>
+              <div class="card__buttom">
+                <div class="card__price">$185</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="trends__card card">
+              <img
+                src="./images/trends9.jpeg"
+                alt="trends3"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <div class="card__sale card__sale-shop">Sale</div>
+              <h3 class="card__title">Fire Pit Lviv</h3>
+              <div class="card__buttom">
+                <div class="card__price">$777</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+  
+            <div class="trends__card card">
+              <img
+                src="./images/trends3.jpeg"
+                alt="trends3"
+                width="304"
+                height="320"
+                class="card__img"
+              />
+              <h3 class="card__title">Kyiv Mohyla Main Campus</h3>
+              <div class="card__buttom">
+                <div class="card__price">$309</div>
+                <div class="card__heart-wrapper">
+                  <span class="card__heart-icon"></span>
+                </div>
+                <div class="card__cart-wrapper">
+                  <span class="card__cart-icon"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="shop__cards-wrapper-bottom">
+            <div class="shop__cards-wrapper-bottom-wr">
+              <div class="shop__cards-wrapper-bottom--arrow-left"></div>
+            </div>
+            <span class="shop__cards-wrapper-bottom--pageN">1</span>
+            <span class="shop__cards-wrapper-bottom--pageN">2</span>
+            <span class="shop__cards-wrapper-bottom--pageN">3</span>
+            <span class="shop__cards-wrapper-bottom--pageN">4</span>
+            <span class="shop__cards-wrapper-bottom--pageN">5</span>
+            <span class="shop__cards-wrapper-bottom--pageN">...</span>
+            <span class="shop__cards-wrapper-bottom--pageN">11</span>
+            <div class="shop__cards-wrapper-bottom-wr">
+              <div class="shop__cards-wrapper-bottom--arrow-right"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer__trends">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="footer__text">
+          <a href="#home"><span class="footer__logo footer__logo--trends logo">BWS</span></a>
+          <ul class="footer__nav">
+            <li class="footer__nav-item">Design Gallery</li>
+            <li class="footer__nav-item">Products</li>
+            <li class="footer__nav-item">Resources</li>
+            <li class="footer__nav-item">About</li>
+            <li class="footer__nav-item">Contact</li>
+          </ul>
+        </div>
+        <div class="footer__icons">
+          <div class="footer__icons-wrap--trends">
+            <a href="https://twitter.com/"><span class="footer__icon footer__icon-twitter"></span></a>
+          </div>
+          <div class="footer__icons-wrap--trends">
+            <a href="https://instagram.com"><span class="footer__icon footer__icon-instagram"></span></a>
+          </div>
+          <div class="footer__icons-wrap--trends">
+            <a href="https://facebook.com"><span class="footer__icon footer__icon-facebook"></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
